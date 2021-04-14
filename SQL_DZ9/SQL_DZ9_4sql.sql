@@ -1,0 +1,19 @@
+CREATE TEMPORARY TABLE date_apr (
+apr DATE NOT NULL);
+
+INSERT INTO date_apr VALUES 
+('2021-04-01'),
+('2021-04-03'), 
+('2021-04-05'), 
+('2021-04-07'), 
+('2021-04-08'), 
+('2021-04-11'), 
+('2021-04-13'), 
+('2021-04-15'), 
+('2021-04-19'), 
+('2021-04-21'),
+('2021-04-22'),;
+
+DELETE FROM date_aapr ORDER BY apr LIMIT 5; 
+
+SELECT * FROM date_apr ORDER BY apr DESC;
